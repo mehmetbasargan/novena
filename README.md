@@ -10,4 +10,6 @@ Wordpress Ceviri Destekli kod yazdığım için Loco Translate gibi bir çeviri
 
 Custom Post Type kullandım ve MixItUp kullanarak Doktorlar için özel filtreli bir bölüm oluşturdum.
 
+Blog bölümünde Son Yazılar için özel bir Custom Widget Oluşturdum.
+
 Bu tema Ticari kullanım için değildir örnek bir çalışmadır.
