@@ -83,6 +83,7 @@ Kirki::add_field('novena', [
     'description' => esc_html__('Banner Görseli Ekleyin', 'kirki'),
     'section'     => 'banner_section',
     'priority'    => 1,
+    'default'     => get_template_directory_uri() . '/assets/images/bg/banner.jpg',
 ]);
 
 Kirki::add_field('novena', [
@@ -287,6 +288,7 @@ Kirki::add_field('novena', [
     'description' => esc_html__('Hakkımzda 1. Görseli Ekleyin', 'novena'),
     'section'     => 'about_section',
     'priority'    => 1,
+    'default'     => get_template_directory_uri() . '/assets/images/about/img-1.jpg'
 ]);
 
 Kirki::add_field('novena', [
@@ -296,6 +298,7 @@ Kirki::add_field('novena', [
     'description' => esc_html__('Hakkımzda 2. Görseli Ekleyin', 'novena'),
     'section'     => 'about_section',
     'priority'    => 2,
+    'default'     => get_template_directory_uri() . '/assets/images/about/img-2.jpg'
 ]);
 
 Kirki::add_field('novena', [
@@ -305,6 +308,7 @@ Kirki::add_field('novena', [
     'description' => esc_html__('Hakkımzda 3. Görseli Ekleyin', 'novena'),
     'section'     => 'about_section',
     'priority'    => 3,
+    'default'     => get_template_directory_uri() . '/assets/images/about/img-3.jpg'
 ]);
 
 Kirki::add_field('novena', [
@@ -538,6 +542,7 @@ Kirki::add_field('novena', [
     'label'       => esc_html__('Online Randevu Bölümü Görseli', 'novena'),
     'section'     => 'appointment_section',
     'priority'    => 1,
+    'default'     => get_template_directory_uri() . '/assets/images/about/img-3.jpg',
 ]);
 
 Kirki::add_field('novena', [
@@ -892,7 +897,8 @@ Kirki::add_field('novena', [
     'label'       => esc_html__('Randevu Al Blümü Görseli', 'novena'),
     'description' => esc_html__('Randevu al bölümü görseli ekleyin.', 'novena'),
     'section'     => 'novena_get_appointment_section',
-    'priority' => 3,
+    'priority'    => 3,
+    'default'     => get_template_directory_uri() . '/assets/images/about/img-3.jpg',
 ]);
 
 Kirki::add_field('novena', [
@@ -1127,7 +1133,8 @@ Kirki::add_field('novena', [
     'label'       => esc_html__('Footer Logo', 'novena'),
     'description' => esc_html__('Footer Bölümüne logo ekle.', 'novena'),
     'section'     => 'aboot_section',
-    'priority' => 1,
+    'priority'    => 1,
+    'default'     => get_template_directory_uri() . '/assets/images/logo.png',
 ]);
 
 Kirki::add_field('novena', [
