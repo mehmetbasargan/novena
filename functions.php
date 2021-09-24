@@ -119,7 +119,7 @@ add_action('after_setup_theme', 'novena_setup');
  */
 function novena_content_width()
 {
-	$GLOBALS['content_width'] = apply_filters('novena_content_width', 640);
+	$GLOBALS['content_width'] = apply_filters('novena_content_width', 1140);
 }
 add_action('after_setup_theme', 'novena_content_width', 0);
 
@@ -178,10 +178,6 @@ function novena_scripts()
 }
 add_action('wp_enqueue_scripts', 'novena_scripts');
 
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
@@ -189,14 +185,15 @@ require get_template_directory() . '/inc/custom-header.php';
 require get_template_directory() . '/inc/template-tags.php';
 
 /**
+ * Demo Import.
+ */
+require get_template_directory() . '/inc/demo-import.php';
+
+/**
  * Functions which enhance the theme by hooking into WordPress.
  */
 require get_template_directory() . '/inc/template-functions.php';
 
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
 
 /**
  * TGMPA.

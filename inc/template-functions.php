@@ -54,7 +54,19 @@ function novena_register_required_plugins()
 			'required'  => false,
 		),
 
+		// Klasic Editor
+		array(
+			'name'      => 'Klasik düzenleyici',
+			'slug'      => 'classic-editor',
+			'required'  => false,
+		),
 
+		// One Click Demo Import
+		array(
+			'name'      => 'One Click Demo Import',
+			'slug'      => 'one-click-demo-import',
+			'required'  => false,
+		),
 
 	);
 
